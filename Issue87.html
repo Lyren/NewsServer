@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<!-- saved from url=(0056)http://www.androidweekly.cn/android-dev-weekly-issue-87/ -->
+<html lang="zh-CN"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <title>Android开发技术周报 Issue#87</title>
+    <meta name="description" content="">
+
+    <meta name="HandheldFriendly" content="True">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="shortcut icon" href="http://www.androidweekly.cn/favicon.ico">
+
+    <link rel="stylesheet" type="text/css" href="./Issue87_files/screen.css">
+
+    <link rel="canonical" href="http://www.androidweekly.cn/android-dev-weekly-issue-87/">
+    <meta name="referrer" content="origin">
+    
+    <meta property="og:site_name" content="Android开发技术周报">
+    <meta property="og:type" content="article">
+    <meta property="og:title" content="Android开发技术周报 Issue#87">
+    <meta property="og:description" content="新闻 Android N正式命名为牛轧糖(Nougat) Chromebook敞门迎接Android应用 教程 详解Android N适配要点 Google即将发布的Android7.0的预览版Android_N为我们增加了许多新的特性，其中包括多窗口的支持、通知栏支持直接回复、网络数据节省开关、以及新的DOZE模式等等。 5小时搞定谷歌原生自动化框架UiAutomator1.0 谷歌对UI测试（UI Tetsting）的概念是：确保用户在一系列操作过程中（例如键盘输入、点击菜单、弹出对话框、图像显示以及其他UI控件的改变），你的应用程序做出正确的UI响应。UI测试（功能测试、黑盒测试）的好处是不需要测试者了解应用程序的内部实现细节，只需要知道当执行了某些特定的动作后是否会得到其预期的输出。这种测试方法，在团队合作中可以更好地分离的开发和测试角色。 基于Android Studio的内存泄漏检测与解决全攻略 自从Google在2013年发布了Android Studio后，Android Studio凭借着自己良好的内存优化，...">
+    <meta property="og:url" content="http://www.androidweekly.cn/android-dev-weekly-issue-87/">
+    <meta property="og:image" content="http://ww2.sinaimg.cn/large/006rtfu7gw1f5vys9468sj30tz0ioaan.jpg">
+    <meta property="article:published_time" content="2016-07-05T05:14:00.000Z">
+    <meta property="article:modified_time" content="2016-07-19T06:52:43.158Z">
+    <meta property="article:tag" content="AndroidDevWeekly">
+    
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="Android开发技术周报 Issue#87">
+    <meta name="twitter:description" content="新闻 Android N正式命名为牛轧糖(Nougat) Chromebook敞门迎接Android应用 教程 详解Android N适配要点 Google即将发布的Android7.0的预览版Android_N为我们增加了许多新的特性，其中包括多窗口的支持、通知栏支持直接回复、网络数据节省开关、以及新的DOZE模式等等。 5小时搞定谷歌原生自动化框架UiAutomator1.0 谷歌对UI测试（UI Tetsting）的概念是：确保用户在一系列操作过程中（例如键盘输入、点击菜单、弹出对话框、图像显示以及其他UI控件的改变），你的应用程序做出正确的UI响应。UI测试（功能测试、黑盒测试）的好处是不需要测试者了解应用程序的内部实现细节，只需要知道当执行了某些特定的动作后是否会得到其预期的输出。这种测试方法，在团队合作中可以更好地分离的开发和测试角色。 基于Android Studio的内存泄漏检测与解决全攻略 自从Google在2013年发布了Android Studio后，Android Studio凭借着自己良好的内存优化，...">
+    <meta name="twitter:url" content="http://www.androidweekly.cn/android-dev-weekly-issue-87/">
+    <meta name="twitter:image:src" content="http://ww2.sinaimg.cn/large/006rtfu7gw1f5vys9468sj30tz0ioaan.jpg">
+    
+    <script async="" src="./Issue87_files/analytics.js"></script><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "Article",
+    "publisher": "Android开发技术周报",
+    "author": {
+        "@type": "Person",
+        "name": "脉脉不得语",
+        "image": "http://www.androidweekly.cn/content/images/2016/03/avator_512_512.png",
+        "url": "http://www.androidweekly.cn/author/inferjay",
+        "sameAs": "http://www.inferjay.com",
+        "description": "{Developer=菜鸟Android程序猿; Blog=http://inferjay.com; Github=http://github.com/inferjay}"
+    },
+    "headline": "Android开发技术周报 Issue#87",
+    "url": "http://www.androidweekly.cn/android-dev-weekly-issue-87/",
+    "datePublished": "2016-07-05T05:14:00.000Z",
+    "dateModified": "2016-07-19T06:52:43.158Z",
+    "image": "http://ww2.sinaimg.cn/large/006rtfu7gw1f5vys9468sj30tz0ioaan.jpg",
+    "keywords": "AndroidDevWeekly",
+    "description": "新闻 Android N正式命名为牛轧糖(Nougat) Chromebook敞门迎接Android应用 教程 详解Android N适配要点 Google即将发布的Android7.0的预览版Android_N为我们增加了许多新的特性，其中包括多窗口的支持、通知栏支持直接回复、网络数据节省开关、以及新的DOZE模式等等。 5小时搞定谷歌原生自动化框架UiAutomator1.0 谷歌对UI测试（UI Tetsting）的概念是：确保用户在一系列操作过程中（例如键盘输入、点击菜单、弹出对话框、图像显示以及其他UI控件的改变），你的应用程序做出正确的UI响应。UI测试（功能测试、黑盒测试）的好处是不需要测试者了解应用程序的内部实现细节，只需要知道当执行了某些特定的动作后是否会得到其预期的输出。这种测试方法，在团队合作中可以更好地分离的开发和测试角色。 基于Android Studio的内存泄漏检测与解决全攻略 自从Google在2013年发布了Android Studio后，Android Studio凭借着自己良好的内存优化，..."
+}
+    </script>
+
+    <meta name="generator" content="Ghost 0.7">
+    <link rel="alternate" type="application/rss+xml" title="Android开发技术周报" href="http://www.androidweekly.cn/rss/">
+    <style type="text/css">
+.post.page .post-title {
+    text-align: center;
+}
+ .gay_friends_list {
+  margin-top: 5em;
+}
+
+.gay_friends_list ul {
+  list-style: disc;
+  margin-left: 1.3em;
+}
+
+.gay_friends_list ul li {
+  list-style: none;
+  float: left;
+  width: 25%;
+  text-align: center;
+  height: 25%;
+  margin-bottom: 5em;
+}
+
+.gay_friends_list ul li a {
+  display: block;
+  width: 130px;
+  height: 64px;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  // background-color: white;
+}
+.gay_friends_list ul li img:hover {
+  -moz-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+  -webkit-box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+  box-shadow: -2px 4px 6px -2px rgba( 0, 0, 0, .10 ), 2px 4px 6px 2px rgba( 0, 0, 0, .05 );
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+}
+.gay_friends_list ul li img {
+  width: 130px;
+  height: 64px;
+  padding: 0px;
+  background-color: white;
+  -webkit-border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
+  border: 1px solid rgba(153, 153, 153, 0.23);
+}
+</style>
+<script src="./Issue87_files/share.js"></script><script type="text/javascript" async="" src="./Issue87_files/embed.js"></script><style id="fit-vids-style">.fluid-width-video-wrapper{width:100%;position:relative;padding:0;}.fluid-width-video-wrapper iframe,.fluid-width-video-wrapper object,.fluid-width-video-wrapper embed {position:absolute;top:0;left:0;width:100%;height:100%;}</style><link rel="stylesheet" href="./Issue87_files/share_style1_24.css"><script src="./Issue87_files/alfie.f51946af45e0b561c60f768335c9eb79.js" async="" charset="UTF-8"></script></head>
+<body class="post-template tag-androiddevweekly nav-closed">
+
+    <div class="nav">
+    <h3 class="nav-title">菜单</h3>
+    <a href="http://www.androidweekly.cn/android-dev-weekly-issue-87/#" class="nav-close">
+        <span class="hidden">关闭</span>
+    </a>
+    <ul>
+            <li class="nav-" role="presentation"><a href="http://www.androidweekly.cn/">首页</a></li>
+            <li class="nav-" role="presentation"><a href="https://www.gdgdocs.org/forms/d/e/1FAIpQLSfDyUqAxB76LlbJeUvZVG8wqxTk1z0lAVMBCKg4sck6_OeHOQ/viewform">我要投稿</a></li>
+            <li class="nav-" role="presentation"><a href="http://t.cn/RUFnVgP">邮件订阅周报</a></li>
+            <li class="nav-android-dev-tools" role="presentation"><a href="http://www.androiddevtools.cn/">Android Dev Tools</a></li>
+            <li class="nav-android" role="presentation"><a href="http://www.androiddocs.com/">Android开发文档</a></li>
+            <li class="nav-codelabs" role="presentation"><a href="http://code-labs.cn/">CodeLabs</a></li>
+            <li class="nav-material-design" role="presentation"><a href="http://materialdoc.cn/">Material Design</a></li>
+            <li class="nav-" role="presentation"><a href="http://www.androidweekly.cn/gay-friends">好基友</a></li>
+            <li class="nav-" role="presentation"><a href="http://www.androidweekly.cn/about">关于</a></li>
+    </ul>
+    <a class="subscribe-button icon-feed" href="http://www.androidweekly.cn/rss/">订阅</a>
+</div>
+<span class="nav-cover"></span>
+
+    <div class="site-wrapper">
+
+        
+
+
+<header class="main-header post-head " style="background-image: url(http://ww2.sinaimg.cn/large/006rtfu7gw1f5vys9468sj30tz0ioaan.jpg)">
+    <nav class="main-nav overlay clearfix">
+        <a class="blog-logo" href="http://www.androidweekly.cn/"><img src="./Issue87_files/book-icon.png" alt="Android开发技术周报"></a>
+            <a class="menu-button icon-menu" href="http://www.androidweekly.cn/android-dev-weekly-issue-87/#"><span class="word">菜单</span></a>
+    </nav>
+</header>
+
+<main class="content" role="main">
+    <article class="post tag-androiddevweekly">
+
+        <header class="post-header">
+            <h1 class="post-title">Android开发技术周报 Issue#87</h1>
+            <section class="post-meta">
+                <time class="post-date" datetime="2016-07-05">2016年07月05日</time>  标签：<a href="http://www.androidweekly.cn/tag/androiddevweekly/">AndroidDevWeekly</a>
+            </section>
+        </header>
+
+        <section class="post-content">
+            <h3 id="">新闻</h3>
+
+<ol>
+<li><p><a href="http://www.cnbeta.com/articles/515677.htm">Android N正式命名为牛轧糖(Nougat)</a></p></li>
+<li><p><a href="http://t.cn/R5HB9QX">Chromebook敞门迎接Android应用</a></p></li>
+</ol>
+
+<h3 id="">教程</h3>
+
+<ol>
+<li><p><a href="http://t.cn/R58gpuW">详解Android N适配要点</a></p>
+
+<p>Google即将发布的Android7.0的预览版Android_N为我们增加了许多新的特性，其中包括多窗口的支持、通知栏支持直接回复、网络数据节省开关、以及新的DOZE模式等等。</p></li>
+<li><p><a href="http://tmq.qq.com/2016/06/androidautotestframwork-uiautomator/">5小时搞定谷歌原生自动化框架UiAutomator1.0</a></p>
+
+<p>谷歌对UI测试（UI Tetsting）的概念是：确保用户在一系列操作过程中（例如键盘输入、点击菜单、弹出对话框、图像显示以及其他UI控件的改变），你的应用程序做出正确的UI响应。UI测试（功能测试、黑盒测试）的好处是不需要测试者了解应用程序的内部实现细节，只需要知道当执行了某些特定的动作后是否会得到其预期的输出。这种测试方法，在团队合作中可以更好地分离的开发和测试角色。</p></li>
+<li><p><a href="http://wetest.qq.com/lab/view/?id=99">基于Android Studio的内存泄漏检测与解决全攻略</a></p>
+
+<p>自从Google在2013年发布了Android Studio后，Android Studio凭借着自己良好的内存优化，酷炫的UI主题，强大的自动补全提示以及Gradle的编译支持正逐步取代Eclipse，成为主流的Android开发IDE。Android Studio在为我们提供了良好的编码体验的同时，也提供了许多对App性能分析的工具，让开发者可以更方便分析App性能。</p></li>
+<li><p><a href="http://tech.meituan.com/java-hashmap.html">Java8系列之重新认识HashMap</a></p>
+
+<p>HashMap是Java程序员使用频率最高的用于映射(键值对)处理的数据类型。随着JDK（Java Developmet Kit）版本的更新，JDK1.8对HashMap底层的实现进行了优化，例如引入红黑树的数据结构和扩容的优化等。本文结合JDK1.7和JDK1.8的区别，深入探讨HashMap的结构实现和功能原理。</p></li>
+<li><p><a href="http://www.infoq.com/cn/articles/book-android-vpn">Android VPN实现原理介绍</a></p>
+
+<p>虚拟专用网络（Virtual Private Network，VPN）能够在不使用专用物理连接的情况下，将一个虚拟的网络扩展到全网，因此所有连接到VPN中的设备可如同物理连接到同一私有网络中一样，发送并接收数据。如果个人设备使用VPN接入目标私有网络，这种方式也叫作远程访问VPN；当VPN用来连接两个远程网络的时候，被称为site-to-site VPN。</p></li>
+</ol>
+
+<h3 id="">开源库&amp;项目</h3>
+
+<ol>
+<li><p><a href="https://github.com/Carbs0126/AutoZoomInImageView">AutoZoomInImageView</a></p>
+
+<p>一个可以将一张静态图片居中显示并充满屏幕，同时不断放大图片中间部分，形成一种图片不断向中间放大的动画效果的控件</p></li>
+<li><p><a href="https://github.com/Carbs0126/AvatarImageView">AvatarImageView</a></p>
+
+<p>一个可以将联系人的名字的第一个字作为头像，并添加背景颜色的控件</p></li>
+<li><p><a href="https://github.com/HeZaiJin/SlantedTextView">SlantedTextView</a></p>
+
+<p>一个倾斜的TextView,适用于标签效果</p></li>
+<li><p><a href="https://github.com/Mauker1/MaterialSearchView">MaterialSearchView</a></p>
+
+<p>一个遵循了 Material design 规范的 Android Search View</p></li>
+<li><p><a href="https://github.com/romainguy/elegant-underline">Elegant Underline</a></p>
+
+<p>Exploring possible implementations for better underline text decoration on Android</p></li>
+<li><p><a href="https://github.com/patloew/NavigationViewFragmentAdapters">NavigationViewFragmentAdapters</a></p>
+
+<p>A small library containing two adapters which allow for easy fragment management with a NavigationView.</p></li>
+<li><p><a href="https://github.com/oubowu/MarqueeLayoutLibrary">MarqueeLayoutLibrary</a></p>
+
+<p>一个支持四个方向循环滚动的自定义控件</p></li>
+<li><p><a href="https://github.com/kongnanlive/SideBar">SideBar</a></p>
+
+<p>全新的快速索引导航栏，联系人字母排序侧边栏。</p></li>
+<li><p><a href="https://github.com/joerogers/EspressoDescendantActions">EspressoDescendantActions</a></p>
+
+<p>Custom espresso actions for operating on descendant views such as children of a RecyclerView</p></li>
+<li><p><a href="https://github.com/ldoublem/LoadingView">LoadingView</a></p>
+
+<p>简单的带有动画效果的加载控件</p></li>
+</ol>
+
+<h3 id="">工具</h3>
+
+<ol>
+<li><p><a href="https://github.com/kyleduo/TinyPNG4Mac">TinyPNG4Mac</a></p>
+
+<p>TinyPNG client for Mac</p></li>
+</ol>
+
+<h3 id="books">Books</h3>
+
+<ol>
+<li><p><a href="https://www.gitbook.com/book/benweizhu/gradle-best-practice/details">Gradle最佳实践</a></p>
+
+<p>本书包含了作者认为在Gradle中非常重要的特性，知识点以及自己的一些实践总结</p></li>
+</ol>
+
+<h3 id="">技术之外</h3>
+
+<ol>
+<li><a href="http://www.jianshu.com/p/7e8a18c9fa89">风口与时运</a></li>
+</ol>
+
+<blockquote>
+  <p>版权声明：欢迎自由转载-非商用-非衍生-保持署名 | <a href="https://creativecommons.org/licenses/by-nc-nd/4.0/">Creative Commons BY-NC-ND 4.0</a></p>
+</blockquote>
+        </section>
+	
+        <footer class="post-footer">
+
+
+            <figure class="author-image">
+                <a class="img" href="http://www.androidweekly.cn/author/inferjay/" style="background-image: url(/content/images/2016/03/avator_512_512.png)"><span class="hidden">脉脉不得语的头像</span></a>
+            </figure>
+
+            <section class="author">
+                <h4><a href="http://www.androidweekly.cn/author/inferjay/">脉脉不得语</a></h4>
+
+                    <p>{Developer=菜鸟Android程序猿; Blog=http://inferjay.com; Github=http://github.com/inferjay}</p>
+                <div class="author-meta">
+                    <span class="author-location icon-location">ZhengZhou</span>
+                    <span class="author-link icon-link"><a href="http://www.inferjay.com/">http://www.inferjay.com</a></span>
+                </div>
+            </section>
+
+
+            <section class="share">
+                <h4>分享此博文</h4>
+                <div class="bdsharebuttonbox bdshare-button-style1-24" data-bd-bind="1469155888205"><a href="http://www.androidweekly.cn/android-dev-weekly-issue-87/#" class="bds_more" data-cmd="more"></a><a href="http://www.androidweekly.cn/android-dev-weekly-issue-87/#" class="bds_tsina" data-cmd="tsina" title="分享到新浪微博"></a><a href="http://www.androidweekly.cn/android-dev-weekly-issue-87/#" class="bds_weixin" data-cmd="weixin" title="分享到微信"></a><a href="http://www.androidweekly.cn/android-dev-weekly-issue-87/#" class="bds_douban" data-cmd="douban" title="分享到豆瓣网"></a><a href="http://www.androidweekly.cn/android-dev-weekly-issue-87/#" class="bds_renren" data-cmd="renren" title="分享到人人网"></a></div>
+<script>window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"","bdMini":"2","bdMiniList":false,"bdPic":"","bdStyle":"1","bdSize":"24"},"share":{}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+            </section>
+
+        </footer>
+
+       <!-- Disqus Comment -->
+        <div id="disqus_thread"><iframe id="dsq-app2" name="dsq-app2" allowtransparency="true" frameborder="0" scrolling="no" tabindex="0" title="Disqus" width="100%" src="./Issue87_files/saved_resource.html" style="width: 1px !important; min-width: 100% !important; border: none !important; overflow: hidden !important; height: 544px !important;" horizontalscrolling="no" verticalscrolling="no"></iframe></div>
+        <script type="text/javascript">
+        /* * * CONFIGURATION VARIABLES * * */
+        var disqus_shortname = 'androidweekly';
+
+        /* * * DON'T EDIT BELOW THIS LINE * * */
+         (function() {
+                var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+                dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+                (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+                })();
+        </script>
+        <noscript>Please enable JavaScript to view the &lt;a href="https://disqus.com/?ref_noscript" rel="nofollow"&gt;comments powered by Disqus.&lt;/a&gt;</noscript>
+
+    </article>
+</main>
+
+<aside class="read-next">
+    <a class="read-next-story " style="background-image: url(http://ww3.sinaimg.cn/large/006rtfu7jw1f5vym9udqpj30zk0jytb8.jpg)" href="http://www.androidweekly.cn/android-dev-weekly-issue-88/">
+        <section class="post">
+            <h2>Android开发技术周报 Issue#88</h2>
+            <p>教程 深入浅出 RecyclerView 这篇文章分三个部分，简单跟大家讲一下 RecyclerView 的常用方法与奇葩用法；工作原理与ListView比较；源码解析； 从零开始的Android新项目7 - Data Binding入门篇 Data Binding自从去年的Google I/O发布到至今，也有近一年的时间了。这一年来，…</p>
+        </section>
+    </a>
+    <a class="read-next-story prev " style="background-image: url(http://ww2.sinaimg.cn/large/006rtfu7gw1f5vyt8ja09j30ol0hktc6.jpg)" href="http://www.androidweekly.cn/android-dev-weekly-issue-86/">
+        <section class="post">
+            <h2>Android开发技术周报 Issue#86</h2>
+            <p>教程 集成第三方推送最佳实践 Android在国内没有办法利用系统级的推送服务，再加上第三方rom对于原生的各种定制（这里的定制并无褒贬之意）所以国内的开发者就需要选择一些成熟的推送平台做推送服务了。目前的推送平台种类繁多，本文将给出推送平台的具体对比和调研结果，方便后来人进行选择。因本人对于国外的推送服务没有了解，所以选择的是国内的推送平台。 微信Android热补丁实践演进之路 继插件化后，热补丁技术在2015年开始爆发，目前已经是非常热门的Android开发技术。其中比较著名的有淘宝的Dexposed、支付宝的AndFix以及Qzone的超级热补丁方案。微信对热补丁技术的研究并不算早，大约开始于2015年6月。…</p>
+        </section>
+    </a>
+</aside>
+
+
+
+        <footer class="site-footer clearfix">
+            <section class="copyright"><a href="http://www.androidweekly.cn/">Android开发技术周报</a> © 2016</section>
+            <section class="poweredby">Proudly published with <a href="https://ghost.org/">Ghost</a> &amp; <a href="http://www.ghostchina.com/">GhostChina</a></section>
+        </footer>
+
+    </div>
+
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+  ga('create', 'UA-52369435-3', 'auto');
+  ga('send', 'pageview');
+</script>
+
+    <script src="./Issue87_files/jquery.min.js"></script>
+    <script src="./Issue87_files/jquery.fitvids.min.js"></script>
+    <script src="./Issue87_files/index.js"></script>
+
+
+
+<st-div id="__selection-translator__"> <st-div class="__st-box__" style="display: none; position: fixed; z-index: 99999; left: 0px; top: 0px; transform: translateX(739px) translateY(512px);"> <st-header> <st-span class="st-icon-pin" title="固定"></st-span> <st-span class="st-icon-down-open" title="展开"></st-span> <st-span class="st-icon-cog" title="设置"></st-span> </st-header> <st-div class="__query-form__" style="display: none;"> <st-div> <textarea placeholder="输入要翻译的句子或单词"></textarea> </st-div> <st-div> <select> <option value="">自动判断</option> <option value="zh">中文</option><option value="zh-CN">中文(简体)</option><option value="zh-HK">中文(香港)</option><option value="zh-TW">中文(繁体)</option><option value="en">英语</option><option value="ja">日语</option><option value="ko">朝鲜语</option><option value="de">德语</option><option value="fr">法语</option><option value="ru">俄语</option><option value="th">泰语</option><option value="af">南非语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="be">比利时语</option><option value="bg">保加利亚语</option><option value="ca">加泰隆语</option><option value="cs">捷克语</option><option value="cy">威尔士语</option><option value="da">丹麦语</option><option value="dv">第维埃语</option><option value="el">希腊语</option><option value="eo">世界语</option><option value="es">西班牙语</option><option value="et">爱沙尼亚语</option><option value="eu">巴士克语</option><option value="fa">法斯语</option><option value="fi">芬兰语</option><option value="fo">法罗语</option><option value="gl">加里西亚语</option><option value="gu">古吉拉特语</option><option value="he">希伯来语</option><option value="hi">印地语</option><option value="hr">克罗地亚语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="id">印度尼西亚语</option><option value="is">冰岛语</option><option value="it">意大利语</option><option value="ka">格鲁吉亚语</option><option value="kk">哈萨克语</option><option value="kn">卡纳拉语</option><option value="kok">孔卡尼语</option><option value="ky">吉尔吉斯语</option><option value="lt">立陶宛语</option><option value="lv">拉脱维亚语</option><option value="mi">毛利语</option><option value="mk">马其顿语</option><option value="mn">蒙古语</option><option value="mr">马拉地语</option><option value="ms">马来语</option><option value="mt">马耳他语</option><option value="nb">挪威语(伯克梅尔)</option><option value="nl">荷兰语</option><option value="ns">北梭托语</option><option value="pa">旁遮普语</option><option value="pl">波兰语</option><option value="pt">葡萄牙语</option><option value="qu">克丘亚语</option><option value="ro">罗马尼亚语</option><option value="sa">梵文</option><option value="se">北萨摩斯语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sq">阿尔巴尼亚语</option><option value="sv">瑞典语</option><option value="sw">斯瓦希里语</option><option value="syr">叙利亚语</option><option value="ta">泰米尔语</option><option value="te">泰卢固语</option><option value="tl">塔加路语</option><option value="tn">茨瓦纳语</option><option value="tr">土耳其语</option><option value="ts">宗加语</option><option value="tt">鞑靼语</option><option value="uk">乌克兰语</option><option value="ur">乌都语</option><option value="uz">乌兹别克语</option><option value="vi">越南语</option><option value="xh">班图语</option><option value="zu">祖鲁语</option> </select> <st-div class="__exchange__"> <st-span class="st-icon-exchange"></st-span> </st-div> <select> <option value="">自动选择</option> <option value="zh">中文</option><option value="zh-CN">中文(简体)</option><option value="zh-HK">中文(香港)</option><option value="zh-TW">中文(繁体)</option><option value="en">英语</option><option value="ja">日语</option><option value="ko">朝鲜语</option><option value="de">德语</option><option value="fr">法语</option><option value="ru">俄语</option><option value="th">泰语</option><option value="af">南非语</option><option value="ar">阿拉伯语</option><option value="az">阿塞拜疆语</option><option value="be">比利时语</option><option value="bg">保加利亚语</option><option value="ca">加泰隆语</option><option value="cs">捷克语</option><option value="cy">威尔士语</option><option value="da">丹麦语</option><option value="dv">第维埃语</option><option value="el">希腊语</option><option value="eo">世界语</option><option value="es">西班牙语</option><option value="et">爱沙尼亚语</option><option value="eu">巴士克语</option><option value="fa">法斯语</option><option value="fi">芬兰语</option><option value="fo">法罗语</option><option value="gl">加里西亚语</option><option value="gu">古吉拉特语</option><option value="he">希伯来语</option><option value="hi">印地语</option><option value="hr">克罗地亚语</option><option value="hu">匈牙利语</option><option value="hy">亚美尼亚语</option><option value="id">印度尼西亚语</option><option value="is">冰岛语</option><option value="it">意大利语</option><option value="ka">格鲁吉亚语</option><option value="kk">哈萨克语</option><option value="kn">卡纳拉语</option><option value="kok">孔卡尼语</option><option value="ky">吉尔吉斯语</option><option value="lt">立陶宛语</option><option value="lv">拉脱维亚语</option><option value="mi">毛利语</option><option value="mk">马其顿语</option><option value="mn">蒙古语</option><option value="mr">马拉地语</option><option value="ms">马来语</option><option value="mt">马耳他语</option><option value="nb">挪威语(伯克梅尔)</option><option value="nl">荷兰语</option><option value="ns">北梭托语</option><option value="pa">旁遮普语</option><option value="pl">波兰语</option><option value="pt">葡萄牙语</option><option value="qu">克丘亚语</option><option value="ro">罗马尼亚语</option><option value="sa">梵文</option><option value="se">北萨摩斯语</option><option value="sk">斯洛伐克语</option><option value="sl">斯洛文尼亚语</option><option value="sq">阿尔巴尼亚语</option><option value="sv">瑞典语</option><option value="sw">斯瓦希里语</option><option value="syr">叙利亚语</option><option value="ta">泰米尔语</option><option value="te">泰卢固语</option><option value="tl">塔加路语</option><option value="tn">茨瓦纳语</option><option value="tr">土耳其语</option><option value="ts">宗加语</option><option value="tt">鞑靼语</option><option value="uk">乌克兰语</option><option value="ur">乌都语</option><option value="uz">乌兹别克语</option><option value="vi">越南语</option><option value="xh">班图语</option><option value="zu">祖鲁语</option> </select> </st-div> <st-div> <select> <option value="YouDao">有道翻译</option> <option value="BaiDu">百度翻译</option> <option value="Bing">必应翻译</option> <option value="Google">谷歌翻译</option> <option value="GoogleCN">谷歌翻译（国内）</option> </select> <st-div class="__action-list__"> <st-div class="__button__ __btn-translate__">翻译 <st-span class="st-icon-down-dir"></st-span> </st-div> <st-div class="__expand__"> <st-div class="__button__">朗读</st-div> <st-div class="__button__">复制</st-div> </st-div> </st-div> </st-div> </st-div> <st-div class="__translate-result__" style="display: none;">正在查询，请稍候……</st-div> <st-div class="__translate-result__"> <st-div style="display: none;"> <st-span></st-span> <st-span class="__retry__">重试</st-span> </st-div> <st-div> <st-div class="__phonetic__"> <st-span style="display: none;"></st-span> <st-span class="__copy-and-read__"> <st-span>朗读</st-span> <st-span style="display: none;">复制</st-span> </st-span> </st-div> <st-div style="display: none;"> <st-ul>  </st-ul> <st-div class="__copy-and-read__"> <st-span class="__copy-and-read__">复制</st-span> </st-div> </st-div> <st-div style="display: none;">  <st-div class="__copy-and-read__"> <st-span class="__copy-and-read__">朗读</st-span> <st-span class="__copy-and-read__">复制</st-span> </st-div> </st-div> </st-div> </st-div> <st-footer> <st-span style="display: none;">via <a target="_blank" href="http://www.androidweekly.cn/android-dev-weekly-issue-87/"></a></st-span> </st-footer> </st-div> <st-div class="__st-btn__" style="display: none; position: fixed; z-index: 99999; left: 0px; top: 0px; transform: translateX(739px) translateY(512px);">译</st-div> </st-div></body><div></div></html>
